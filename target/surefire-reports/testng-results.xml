@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-20T17:59:51 IST" name="Suite" finished-at="2021-06-20T18:00:10 IST" duration-ms="19334">
+    <groups>
+    </groups>
+    <test started-at="2021-06-20T17:59:51 IST" name="CreateUser" finished-at="2021-06-20T18:00:08 IST" duration-ms="17141">
+      <class name="apiTests.CreateUser">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T17:59:51 IST" name="setup" finished-at="2021-06-20T17:59:54 IST" duration-ms="2389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62d40e31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T17:59:54 IST" name="createUser" data-provider="readJSONData" finished-at="2021-06-20T18:00:04 IST" duration-ms="9603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bharat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doctor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:04 IST" name="destory" finished-at="2021-06-20T18:00:04 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:04 IST" name="setup" finished-at="2021-06-20T18:00:04 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62d40e31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:04 IST" name="createUser" data-provider="readJSONData" finished-at="2021-06-20T18:00:05 IST" duration-ms="985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tuku]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Crickter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:05 IST" name="destory" finished-at="2021-06-20T18:00:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:05 IST" name="setup" finished-at="2021-06-20T18:00:05 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62d40e31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:05 IST" name="createUser" data-provider="readJSONData" finished-at="2021-06-20T18:00:06 IST" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cricketer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:07 IST" name="destory" finished-at="2021-06-20T18:00:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:07 IST" name="setup" finished-at="2021-06-20T18:00:07 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@62d40e31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:07 IST" name="createUser" data-provider="readJSONData" finished-at="2021-06-20T18:00:08 IST" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Politician]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:08 IST" name="destory" finished-at="2021-06-20T18:00:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+      </class> <!-- apiTests.CreateUser -->
+    </test> <!-- CreateUser -->
+    <test started-at="2021-06-20T18:00:08 IST" name="GetListOfUser" finished-at="2021-06-20T18:00:10 IST" duration-ms="1854">
+      <class name="apiTests.CreateUser">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T17:59:50 IST" name="beforeSuite" finished-at="2021-06-20T17:59:51 IST" depends-on-methods="apiTests.BaseClass.setup" duration-ms="559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e1ae763]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:apiTests.CreateUser@5d0a1059]" started-at="2021-06-20T18:00:11 IST" name="afterSuite" finished-at="2021-06-20T18:00:13 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- apiTests.CreateUser -->
+      <class name="apiTests.GetAllUsers">
+        <test-method is-config="true" signature="setup()[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T17:59:50 IST" name="setup" finished-at="2021-06-20T17:59:50 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T17:59:51 IST" name="beforeSuite" finished-at="2021-06-20T17:59:51 IST" depends-on-methods="apiTests.BaseClass.setup" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e1ae763]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T18:00:08 IST" name="setup" finished-at="2021-06-20T18:00:09 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e1ae763]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getListOfUsers()[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T18:00:09 IST" name="getListOfUsers" finished-at="2021-06-20T18:00:10 IST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListOfUsers -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T18:00:10 IST" name="destory" finished-at="2021-06-20T18:00:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T18:00:10 IST" name="setup" finished-at="2021-06-20T18:00:10 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e1ae763]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNoOfUsers()[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T18:00:10 IST" name="verifyNoOfUsers" finished-at="2021-06-20T18:00:10 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoOfUsers -->
+        <test-method is-config="true" signature="destory()[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T18:00:10 IST" name="destory" finished-at="2021-06-20T18:00:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destory -->
+        <test-method is-config="true" signature="destroy()[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T18:00:13 IST" name="destroy" finished-at="2021-06-20T18:00:13 IST" depends-on-methods="apiTests.GetAllUsers.afterSuite" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:apiTests.GetAllUsers@1b11171f]" started-at="2021-06-20T18:00:13 IST" name="afterSuite" finished-at="2021-06-20T18:00:13 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- apiTests.GetAllUsers -->
+    </test> <!-- GetListOfUser -->
+  </suite> <!-- Suite -->
+</testng-results>

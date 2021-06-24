@@ -1,0 +1,14 @@
+model\IRestResponse.class
+utils\TestDataLoader.class
+model\Data.class
+constants\EndPoints.class
+model\UserRequest.class
+model\UserResponse.class
+model\TestData.class
+model\TestDatum.class
+helpers\CreateUserServiceHelper.class
+helpers\UserServiceHelper.class
+model\Support.class
+model\RestResponse.class
+model\User.class
+utils\ConfigManager.class

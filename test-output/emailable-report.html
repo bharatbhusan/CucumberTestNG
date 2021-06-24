@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">CreateUser</a></td><td class="num">0</td><td class="num attn">6</td><td class="num">0</td><td class="num">0</td><td class="num">2,185</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">CreateUser &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">apiTests.CreateUser</td><td><a href="#m0">startTest</a></td><td rowspan="1">1624111825205</td><td rowspan="1">-1624111825205</td></tr><tr class="failedodd"><td rowspan="1">apiTests.GetAllUsers</td><td><a href="#m1">init</a></td><td rowspan="1">1624111825612</td><td rowspan="1">1488</td></tr><tr><th colspan="4">CreateUser &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="8">apiTests.CreateUser</td><td><a href="#m2">setup</a></td><td rowspan="1">1624111827329</td><td rowspan="1">-1624111827329</td></tr><tr class="skippedeven"><td><a href="#m3">startTest</a></td><td rowspan="3">1624111825503</td><td rowspan="3">-1624111825503</td></tr><tr class="skippedeven"><td><a href="#m4">startTest</a></td></tr><tr class="skippedeven"><td><a href="#m5">startTest</a></td></tr><tr class="skippedeven"><td><a href="#m6">stopTest</a></td><td rowspan="4">1624111825496</td><td rowspan="4">-1624111825496</td></tr><tr class="skippedeven"><td><a href="#m7">stopTest</a></td></tr><tr class="skippedeven"><td><a href="#m8">stopTest</a></td></tr><tr class="skippedeven"><td><a href="#m9">stopTest</a></td></tr><tr class="skippedodd"><td rowspan="3">apiTests.GetAllUsers</td><td><a href="#m10">init</a></td><td rowspan="1">1624111827187</td><td rowspan="1">-1624111827187</td></tr><tr class="skippedodd"><td><a href="#m11">stopTest</a></td><td rowspan="2">1624111827168</td><td rowspan="2">-1624111827168</td></tr><tr class="skippedodd"><td><a href="#m12">stopTest</a></td></tr><tr><th colspan="4">CreateUser &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">apiTests.CreateUser</td><td><a href="#m13">createUser</a></td><td rowspan="4">1624111825471</td><td rowspan="4">0</td></tr><tr class="skippedeven"><td><a href="#m14">createUser</a></td></tr><tr class="skippedeven"><td><a href="#m15">createUser</a></td></tr><tr class="skippedeven"><td><a href="#m16">createUser</a></td></tr><tr class="skippedodd"><td rowspan="2">apiTests.GetAllUsers</td><td><a href="#m17">getListOfUsers</a></td><td rowspan="1">1624111827129</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m18">verifyNoOfUsers</a></td><td rowspan="1">1624111827196</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>CreateUser</h2><h3 id="m0">apiTests.CreateUser#startTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated startTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">apiTests.GetAllUsers#init</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name={null} status=CREATED method=GetAllUsers.getListOfUsers()[pri:0, instance:apiTests.GetAllUsers@4b741d6d] output={null}]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at apiTests.GetAllUsers.init(GetAllUsers.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">apiTests.CreateUser#setup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">apiTests.CreateUser#startTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">apiTests.CreateUser#startTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">apiTests.CreateUser#startTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">apiTests.CreateUser#stopTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">apiTests.CreateUser#stopTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">apiTests.CreateUser#stopTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">apiTests.CreateUser#stopTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">apiTests.GetAllUsers#init</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">apiTests.GetAllUsers#stopTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">apiTests.GetAllUsers#stopTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">apiTests.CreateUser#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Tuku</td><td>Crickter</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated startTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">apiTests.CreateUser#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Rohit</td><td>Cricketer</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated startTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">apiTests.CreateUser#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Bharat</td><td>Doctor</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated startTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">apiTests.CreateUser#createUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Nish</td><td>Politician</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.testng.TestNGException: 
+Can inject only one of &lt;ITestContext, XmlTest, Method, Object[], ITestResult&gt; into a @BeforeMethod annotated startTest.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">apiTests.GetAllUsers#getListOfUsers</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at apiTests.GetAllUsers.init(GetAllUsers.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">apiTests.GetAllUsers#verifyNoOfUsers</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at apiTests.GetAllUsers.init(GetAllUsers.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

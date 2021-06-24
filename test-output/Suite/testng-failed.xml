@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CreateUser(failed)">
+    <classes>
+      <class name="apiTests.CreateUser">
+        <methods>
+          <include name="createUser"/>
+          <include name="initilize"/>
+          <include name="setup"/>
+          <include name="startTest"/>
+          <include name="stopTest"/>
+        </methods>
+      </class> <!-- apiTests.CreateUser -->
+      <class name="apiTests.GetAllUsers">
+        <methods>
+          <include name="verifyNoOfUsers"/>
+          <include name="getListOfUsers"/>
+          <include name="initilize"/>
+          <include name="setup"/>
+          <include name="init"/>
+          <include name="stopTest"/>
+        </methods>
+      </class> <!-- apiTests.GetAllUsers -->
+    </classes>
+  </test> <!-- CreateUser(failed) -->
+</suite> <!-- Failed suite [Suite] -->

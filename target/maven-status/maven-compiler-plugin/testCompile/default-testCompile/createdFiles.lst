@@ -1,0 +1,3 @@
+apiTests\GetAllUsers.class
+apiTests\BaseClass.class
+apiTests\CreateUser.class

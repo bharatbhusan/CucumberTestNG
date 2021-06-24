@@ -1,0 +1,24 @@
+{
+	"tcData": [
+		{
+			"userName": "Bharat",
+			"job": "Doctor",
+			"result": ""
+		},
+		{
+			"userName": "Tuku",
+			"job": "Crickter",
+			"result": ""
+		},
+		{
+			"userName": "Rohit",
+			"job": "Cricketer",
+			"result": ""
+		},
+		{
+			"userName": "Nish",
+			"job": "Politician",
+			"result": ""
+		}
+	]
+}
